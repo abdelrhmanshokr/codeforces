@@ -4,8 +4,8 @@ def most_common(alist):
     return max(set(alist), key = alist.count)
 
 def main():
-    n = int(input('enter the length of the string, note it must be 2 <= n <= 100'))
-    s = str(input('enter the string')).upper()
+    n = int(input())
+    s = str(input()).upper()
 
     #check the number constrains and if the number equals the length of the string
     if 2 >= n >= 100 or n != len(s):
