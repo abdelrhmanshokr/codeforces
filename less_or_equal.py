@@ -49,4 +49,4 @@ def main():
 
 
 
-print(main(ddddddd))
+print(main())
